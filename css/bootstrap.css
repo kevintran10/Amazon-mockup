@@ -1,0 +1,41 @@
+.my-navbar {
+    background-color: seagreen !important;
+}
+
+form {
+    max-width: 500px;
+    width: 40%;
+    min-width: 400px;
+    border: 1px solid gray;
+    border-radius: 1.5%;
+    padding: 2%;
+    margin: 10vh auto 0 auto;
+}
+
+.my-btn {
+    background-color: red !important;
+    color: white;
+}
+
+.my-btn:hover {
+    background-color: green;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.my-col {
+    height: 5vh;
+    padding-top: 1vh;
+    border: 1px solid black;
+}
+
+.container {
+    text-align: center;
+}

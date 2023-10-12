@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    border: 1px solid black;
+    max-width: 400px;
+    width: 10%;
+    min-width: 250px;
+    margin-top: 10vh;
+    padding: 2%;
+    border-radius: 1.5%;
+}
+
+input, button {
+    margin-bottom: 10%;
+}
+
+.text-input {
+    width: 95%;
+    padding: 2%;
+}
+
+textarea {
+    width: 99%;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    padding: 2%;
+}
+ 
+@media (max-width: 600px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+}
